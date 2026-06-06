@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>我发现 API 中转站下一轮不拼低价了，拼的是一个 Key 能不能把所有模型都跑起来</title>
+  <meta name="description" content="JBBToken 一个 Base URL 接入 GPT、Claude、国产模型、图片生成、视频生成和全模型自动路由，适合开发者统一 AI API 工作流。">
+  <link rel="canonical" href="https://m17762053715-gif.github.io/jbbtoken-articles/articles/06-one-key-all-model-routing.html">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header class="top"><div class="wrap nav"><a class="brand" href="../"><span class="mark">J</span><span>JBBToken</span></a><nav class="links"><a href="../">合集</a><a href="https://jbbtoken.cn/">官网</a></nav></div></header>
+  <main class="wrap article">
+    <p class="eyebrow">一个 Key / 全模型自动路由 / OpenAI 兼容 API</p>
+    <h1>我发现 API 中转站下一轮不拼低价了，拼的是一个 Key 能不能把所有模型都跑起来</h1>
+    <p class="meta">发布于 2026-06-06 · 关键词：JBBToken、全模型自动路由、OpenAI 兼容接口、API 中转站</p>
+
+    <p>最近看 API 中转站，很多人第一眼还是盯着价格：哪家 GPT 便宜，哪家 Claude 便宜，哪家注册送得多。</p>
+    <p>但我自己用了几个月之后，发现真正影响效率的不是便宜几毛钱，而是你到底要不要在一堆平台之间来回切。</p>
+    <p>我以前就是这样：Cursor 一个 Key，Claude Code 一个 Key，写脚本又是另一个 Key。文本走一个站，图片生成走另一个站，视频生成基本不敢碰。到最后不是在做项目，而是在管理账户、余额、接口和模型名。</p>
+    <p>后来我试 <a href="https://jbbtoken.cn/">jbbtoken.cn</a> 的时候，最开始只是冲着 9.9 元活动去的。结果用下来才发现，它真正适合被拿来当长期入口的点，是一个 Base URL 能接很多类模型。</p>
+
+    <blockquote>接口就一个：<code>https://jbbtoken.cn/v1</code>。Key 也只用控制台里生成一个。</blockquote>
+
+    <p>Cursor、Claude Code、Codex、Chatbox、Cherry Studio、OpenWebUI、自研脚本，基本只要支持 OpenAI compatible API，都能往这个地址接。</p>
+    <p>这对开发者和内容团队来说很关键。你不需要再为每个工具单独找供应商，也不用每次切模型都重新配环境。日常写代码用 GPT / Codex 分组，长文本和复杂推理可以切 Claude，低成本批处理可以走国产模型，封面图和海报走图片分组，短视频素材走视频分组。</p>
+
+    <h2>真正省的是工作流成本</h2>
+    <p>我觉得 JBBToken 现在比较值得关注的点有三个：</p>
+    <ul>
+      <li>模型覆盖比较全。GPT、Claude、国产模型、生图、视频都在一个体系里，不是只做文本中转。</li>
+      <li>分组清楚。控制台里能看到 VIP 文本、VIP 图片、VIP 视频，也能看到 GPT / Codex、Claude、国产模型、生图标准版这些分组，适合按任务选模型。</li>
+      <li>有全模型自动路由。很多新手不懂线路，也不想研究哪个渠道今天更稳，自动路由能减少选线路、换线路和失败重试的成本。</li>
+    </ul>
+    <p>这也是我觉得 API 中转站会继续卷的方向：不是单纯把价格写得更低，而是谁能把多模型、多工具、多场景做成一个省心入口。</p>
+
+    <h2>适合高频 AI 用户</h2>
+    <p>现在很多人不是只聊天了。开发者要写代码、改 bug、跑测试、写文档；运营要批量写稿、做封面、改标题、生成短视频脚本；自媒体要图文、视频、素材、选题一起跑。如果每个环节都换一次平台，效率一定会被吃掉。</p>
+    <p>JBBToken 现在的 9.9 元活动适合做第一步测试：先小额充值，把 VIP 文本、VIP 图片、VIP 视频这些能力跑一遍，看看你的真实工具链能不能接通。活动期权益具体以官网和控制台显示为准，不建议一上来大额充值。</p>
+    <p>但如果你问我它最大的爆点是什么，我觉得不是“便宜”两个字，而是：一个 Key，把文本、代码、图片、视频和多模型入口先统一起来。</p>
+
+    <div class="cta">
+      <h2>入口</h2>
+      <p>官网：<a href="https://jbbtoken.cn/">https://jbbtoken.cn/</a></p>
+      <p>接口：<code>https://jbbtoken.cn/v1</code></p>
+    </div>
+  </main>
+  <footer class="footer"><div class="wrap"><a href="../">返回文章合集</a></div></footer>
+</body>
+</html>
