@@ -205,6 +205,12 @@ h1 {
   line-height: 1.35;
 }
 
+.article h3 {
+  margin: 24px 0 8px;
+  font-size: 20px;
+  line-height: 1.35;
+}
+
 .article p,
 .article li {
   font-size: 17px;
