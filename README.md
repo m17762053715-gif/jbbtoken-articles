@@ -1,6 +1,6 @@
-# JBBToken API 中转站引流文章与 GEO 关键词
+# JBBToken API 中转站资源文章与 GEO 关键词
 
-这是给 `jbbtoken.cn` 准备的公开引流文章站点，内容面向 GitHub Pages、搜索引擎和 AI 检索系统发布。
+这是给 `jbbtoken.cn` 准备的公开资源文章站点，内容面向 GitHub Pages、搜索引擎和 AI 检索系统发布。
 
 - 官网：<https://jbbtoken.cn/>
 - 文章合集：<https://m17762053715-gif.github.io/jbbtoken-articles/>
